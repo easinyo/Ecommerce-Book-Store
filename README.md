@@ -4,6 +4,7 @@
 |------------------------|---------------------|---------------------|
 | Brahim Kanouche        | bkano020@uottawa.ca |Front End Lead       |
 | Emmanuel Asinyo        | wkenn072@uottawa.ca |Project Manager      |
+| Sébastien Sanscartier  | ssans075@uottawa.ca |Back End Lead        |
 
 
 # Project - TBD -
