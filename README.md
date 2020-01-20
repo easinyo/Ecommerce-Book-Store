@@ -22,8 +22,5 @@
 Please follow those instruction fto set up your local work environment for the front-end. 
 
 
-
-Learn more about Android studio and Android developement: https://developer.android.com/guide
-
 ## Database Schema
 -- to be added later on
