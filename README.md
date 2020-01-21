@@ -8,19 +8,24 @@
 
 
 # Project - TBD -
---- is a project of Emmanuel Asinyo, Sébastien Sanscartier and Brahim Kanouche for the CSI3140 CSI3140*[A] Www Struc. Techn. & Standards project course at the University of Ottawa. 
+
+A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
 
 ------------------
 
 ## Features
-* 
-*
-*
+* Display list of book per category.
+* browse per categorie.
+* Search feature for books ( per title or per author ).
+* Sort books by price.
+* Add to chart.
+* Check out by providing personal info and credit card info.
 
 ## FrontEnd Development Environment Setup Guide
---------------------TBD--------------------
-Please follow those instruction fto set up your local work environment for the front-end. 
+----------------------------------------
+Please follow those instruction fto set up your local work environment for the front-end. (To be added)
 
 
 ## Database Schema
--- to be added later on
+----------------------------------------
+To be added later on
