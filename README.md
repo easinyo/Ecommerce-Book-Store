@@ -7,7 +7,7 @@
 | Sébastien Sanscartier  | ssans075@uottawa.ca |Back End Lead        |
 
 
-# Project - A BookStore -
+# Project - BookStore website
 
 A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
 
@@ -23,7 +23,7 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 
 ## FrontEnd Development Environment Setup Guide
 ----------------------------------------
-Please follow those instruction fto set up your local work environment for the front-end. (To be added)
+Please follow those instruction to set up your local work environment. (To be added)
 
 
 ## Database Schema
