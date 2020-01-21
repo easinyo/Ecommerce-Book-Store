@@ -1,0 +1,11 @@
+body {
+	padding-top: 60px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#container {
+	padding-top: 10px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+}
