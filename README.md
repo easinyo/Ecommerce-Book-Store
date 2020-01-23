@@ -1,10 +1,10 @@
 ## Team (Contributors)
 
-| Name                   | Email               |Role                 |
+| Name                   | Email               |Student ID                 |
 |------------------------|---------------------|---------------------|
-| Brahim Kanouche        | bkano020@uottawa.ca |Front End Lead       |
-| Emmanuel Asinyo        | wkenn072@uottawa.ca |Project Manager      |
-| Sébastien Sanscartier  | ssans075@uottawa.ca |Back End Lead        |
+| Brahim Kanouche        | bkano020@uottawa.ca |8879715      |
+| Emmanuel Asinyo        | wkenn072@uottawa.ca |8890676      |
+| Sébastien Sanscartier  | ssans075@uottawa.ca |---        |
 
 
 # Project - BookStore website
