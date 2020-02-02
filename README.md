@@ -24,6 +24,12 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 ## FrontEnd Development Environment Setup Guide
 ----------------------------------------
 Please follow those instruction to set up your local work environment. (To be added)
+Used technologies: 
+ - HTML5
+ - CSS3
+ - Javascript
+ - PHP
+ - SQL
 
 
 ## Database Schema
