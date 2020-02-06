@@ -4,7 +4,7 @@
 |------------------------|---------------------|---------------------|
 | Brahim Kanouche        | bkano020@uottawa.ca |8879715      |
 | Emmanuel Asinyo        | wkenn072@uottawa.ca |8890676      |
-| Sébastien Sanscartier  | ssans075@uottawa.ca |---        |
+| Sébastien Sanscartier  | ssans075@uottawa.ca |6978470      |
 
 
 # Project - BookStore website
