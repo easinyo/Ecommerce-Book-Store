@@ -15,18 +15,18 @@ body {
 	vertical-align: center;
 }
 
-.book {
-	text-align: center;
-}
-
-.book h4, h5 {
-	margin: 5px;
-}
-
 .main h2 {
 	text-align: center;
 	margin: 0px;
 	margin-bottom: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .book_image_col {
@@ -60,6 +60,14 @@ body {
 	padding-top: 10px;
 	vertical-align: top;
 	font-size: 13px;
+}
+
+.parent_div { 
+	display: flex 
+}
+
+.children_div { 
+	flex: 0  0 33% 
 }
 
 #cart_table {
@@ -143,4 +151,28 @@ body {
 
 #summary table tr td:last-child {
 	text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
 }
