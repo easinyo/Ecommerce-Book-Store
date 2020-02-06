@@ -20,17 +20,19 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 * Sort books by price.
 * Add to chart.
 * Check out by providing personal info and credit card info.
+A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
+
+------------------
+
 
 # Color Palette
 ## Primary Colors
 We will be using these colors as our primary one through the whole website. With Black or white test.
+![](images/PrimaryColorPalette.JPG)
 
 ## Complemenary Colors
 We will be using those colors as our secondary color palette
-
-A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
-
-------------------
+![](images/complementaryColorPalette.JPG)
 
 ## FrontEnd Development Environment Setup Guide
 ----------------------------------------
