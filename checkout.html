@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">BookStore</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="padding-right: 5px;"></span>Shopping Cart <span class="badge">2</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container"> 
+        <div class="col-md-8">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">General Information</h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <form role="form" data-toggle="validator" id="general_form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputFirstName" class="col-sm-3 control-label">* First Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputFirstName" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputLastName" class="col-sm-3 control-label">* Last Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputLastName" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-sm-3 control-label">* Email</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="inputEmail" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <button type="submit" class="btn btn-default">Next</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">Delivery Address</h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <form role="form" data-toggle="validator" id="delivery_form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputCountry" class="col-sm-3 control-label">* Country</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control">
+                                            <option>Canada</option>
+                                            <option>United States</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputStreetAddress1" class="col-sm-3 control-label">* Street Address 1</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputStreetAddress1" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputStreetAddress2" class="col-sm-3 control-label">Street Address 2</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputStreetAddress2">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputCity" class="col-sm-3 control-label">* City</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputCity" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputProvince" class="col-sm-3 control-label">* Province</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control">
+                                            <option>Ontario</option>
+                                            <option>Quebec</option>
+                                            <option>Nova Scotia</option>
+                                            <option>New Brunswick</option>
+                                            <option>Manitoba</option>
+                                            <option>British Columbia</option>
+                                            <option>Prince Edward Island</option>
+                                            <option>Saskatchewan</option>
+                                            <option>Alberta</option>
+                                            <option>Newfoundland and Labrador</option>
+                                            <option>Northwest Territories</option>
+                                            <option>Yukon</option>
+                                            <option>Nunavut</option>
+                                        </select>
+                                    </div>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPostalCode" class="col-sm-3 control-label">* Postal Code</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputPostalCode" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <input type="button" value="Back" class="btn btn-default" onclick="showGeneralSection();">
+                                        <button type="submit" class="btn btn-default">Next</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">Shipping Options</h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <form role="form" data-toggle="validator" id="shipping_form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-9">
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="shipping" required>
+                                                <b>NextDay Delivery ($15.99):</b> <br>
+                                                Delivered on Mar 24, 2015
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="shipping" required>
+                                                <b>Premium Shipping ($10.99):</b> <br>
+                                                Delivered by Mar 27, 2015
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="shipping" checked="checked" required>
+                                                <b>Standard Shipping ($5.99):</b> <br>
+                                                Delivered by Mar 27, 2015
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <input type="button" value="Back" class="btn btn-default" onclick="showDeliverySectionBack();">
+                                        <button type="submit" class="btn btn-default">Next</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">Payment Information</h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <form role="form" data-toggle="validator" id="payment_form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputCardType" class="col-sm-3 control-label">* Card Type</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control">
+                                            <option>MasterCard</option>
+                                            <option>American Express</option>
+                                            <option>Visa</option>
+                                        </select>
+                                    </div>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputCardNumber" class="col-sm-3 control-label">* Card Number</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputCardNumber" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputExpiryDate" class="col-sm-3 control-label">* Expiry</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control">
+                                            <option>mm</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="form-control">
+                                            <option>yyyy</option>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                        </select>
+                                    </div>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputSecurityCode" class="col-sm-3 control-label">* Security Code</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="inputSecurityCode" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputNameOnCard" class="col-sm-3 control-label">* Name on Card</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inputNameOnCard" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <input type="button" value="Back" class="btn btn-default" onclick="showShippingSectionBack();">
+                                        <button type="submit" style="background-color: #428bca; color: white;" class="btn btn-default"><span class="glyphicon glyphicon-credit-card" aria-hidden="true" style="padding-right: 5px;"></span> Place Order</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" id="summary">
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Order Total</td>
+                        <td>$15.99</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Our Price</td>
+                        <td>$12.99</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping &amp; Handling</td>
+                        <td>$3.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Cart Summary</td>
+                        <td><a href="cart.html">edit</a></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td rowspan="4" style="padding: 2px; padding-top: 5px;"><img style="max-height: 80px;" src="images/search_results_1.jpg"></td>
+                                <td style="text-align: left; padding: 2px; padding-top: 5px;"><b>A Really Nice Prom Mess</b></td>
+                                <td style="text-align: right; padding: 2px; padding-top: 5px;">$12.99</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px;">Trade Paperback</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px;">Qty 1</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px; padding-bottom: 5px;">Delivered by Mar 27, 2015</td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr style="border-top: 1px solid #DDD;">
+                                <td rowspan="4" style="padding: 2px; padding-top: 5px;"><img style="max-height: 80px;" src="images/index_top_picks_1.jpg"></td>
+                                <td style="text-align: left; padding: 2px; padding-top: 5px;"><b>To Kill A Mockingbird</b></td>
+                                <td style="text-align: right; padding: 2px; padding-top: 5px;">$15.96</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px;">Trade Paperback</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px;">Qty 1</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding: 2px;">Delivered by Mar 27, 2015</td>
+                            </tr>
+                        </table>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+</html>
