@@ -34,9 +34,26 @@ We will be using these colors as our primary one through the whole website. With
 We will be using those colors as our secondary color palette
 ![](images/complementaryColorPalette.JPG)
 
-## FrontEnd Development Environment Setup Guide
+# Fonts and Type scale
+
+| scale category| font    | size   | case      |
+|---------------|---------|--------|-----------|
+|  H1           | Light   |  96    | Sentence  |
+|  H2           | Light   |  60    | Sentence  |
+|  H3           | Regular |  48    | Sentence  |
+|  H4           | Regular |  34    | Sentence  |
+|  H5           | Medium  |  24    | Sentence  |
+|  H6           | Regular |  20    | Sentence  |
+|  body         | Regular |  16    | Sentence  |
+|  p            | Regular |  16    | Sentence  |
+|  button       | Medium  |  14    | All caps  |
+
+Main font type used is: **Arial**
+
+## Development Environment Setup Guide
 ----------------------------------------
 Please follow those instruction to set up your local work environment. (To be added)
+
 Used technologies: 
  - HTML5
  - CSS3
