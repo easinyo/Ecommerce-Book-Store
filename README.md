@@ -28,7 +28,7 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 # Color Palette
 ## Primary Colors
 We will be using these colors as our primary one through the whole website. With Black or white test.
-![](images/PrimaryColorPalette.JPG)
+![](images/PrimaryColors.JPG)
 
 ## Complemenary Colors
 We will be using those colors as our secondary color palette
