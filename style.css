@@ -158,7 +158,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #2E3192;
 }
 
 li {
@@ -174,5 +174,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #111111;
+  background-color: #D41454;
 }
