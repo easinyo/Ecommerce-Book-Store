@@ -83,8 +83,8 @@ Please follow those instruction fto set up your local machine.
 ### Running the WebApplication
 
 1. Open xampp and go to manage servers and start ```Apache``` and ```MySQL``` web server.
-2.Open ```dbconnect.php``` and modify it.
-3.To find where is your ```localhost/password```, please follow step
+2. Open ```dbconnect.php``` and modify it.
+3. To find where is your ```localhost/password```, please follow step
    
   - Step 1:
     - Locate phpMyAdmin installation path.
