@@ -91,13 +91,12 @@ Please follow those instruction fto set up your local machine.
   - Step 2:
     - Open phpMyAdmin>config.inc.php in your favourite text editor.
   - Step 3:
-
-    $cfg['Servers'][$i]['auth_type'] = 'config';
-    $cfg['Servers'][$i]['user'] = 'root';
-    $cfg['Servers'][$i]['password'] = '';
-    $cfg['Servers'][$i]['extension'] = 'mysqli';
-    $cfg['Servers'][$i]['AllowNoPassword'] = true;
-    $cfg['Lang'] = '';
+    - $cfg['Servers'][$i]['auth_type'] = 'config';
+    - $cfg['Servers'][$i]['user'] = 'root';
+    - $cfg['Servers'][$i]['password'] = '';
+    - $cfg['Servers'][$i]['extension'] = 'mysqli';
+    - $cfg['Servers'][$i]['AllowNoPassword'] = true;
+    - $cfg['Lang'] = '';
     
 4. navigate to http://localhost/BookStore/ and you are all set :D
 
