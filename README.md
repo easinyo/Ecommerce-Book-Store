@@ -80,10 +80,26 @@ Please follow those instruction fto set up your local machine.
 4. once ```DatabaseName``` created, navigate to your project location, usually on ```c:\xampp\htdocs\BookStore``` and import ```bookstore.sql```
 5. Then ignore the error that shows up After clicking ```Go```. 
 
-### Running the Webserver
+### Running the WebApplication
 
-1. Open xampp and go to manage servers and start Apache web server.
-2. navigate to http://localhost/BookStore/ and you are all set :D
+1. Open xampp and go to manage servers and start ```Apache``` and ```MySQL``` web server.
+2.Open ```dbconnect.php``` and modify it.
+3.To find where is your ```localhost/password```, please follow step
+   
+  - Step 1:
+    - Locate phpMyAdmin installation path.
+  - Step 2:
+    - Open phpMyAdmin>config.inc.php in your favourite text editor.
+  - Step 3:
+
+    $cfg['Servers'][$i]['auth_type'] = 'config';
+    $cfg['Servers'][$i]['user'] = 'root';
+    $cfg['Servers'][$i]['password'] = '';
+    $cfg['Servers'][$i]['extension'] = 'mysqli';
+    $cfg['Servers'][$i]['AllowNoPassword'] = true;
+    $cfg['Lang'] = '';
+    
+4. navigate to http://localhost/BookStore/ and you are all set :D
 
 N.B: if you created a new folder named ```example``` to pull the repository to it, make sure to add the name of the folder in your URL (e.g: http://localhost/example/BookStore/)
 
