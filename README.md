@@ -14,13 +14,13 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 ------------------
 
 ## Features
+* Login and sign up
 * Display list of book per category.
 * browse per categorie.
 * Search feature for books ( per title or per author ).
 * Sort books by price.
 * Add to chart.
-* Check out by providing personal info and credit card info.
-A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
+* Check out by sending cheques or cash.
 
 ------------------
 
