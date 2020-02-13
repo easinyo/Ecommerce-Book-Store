@@ -64,7 +64,7 @@ Used technologies:
 
 ## Database Schema
 ----------------------------------------
-To be added later on
+![](/bookStore-Database.png)
 
 ### Setup
 
