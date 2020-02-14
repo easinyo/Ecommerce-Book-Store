@@ -14,9 +14,10 @@ A book store website to sell the pdf and hardcopies best seller and new coming b
 ------------------
 
 ## Features
-* Login and sign up
-* Display list of book per category.
-* browse per categorie.
+* Login as an existing user.
+* Sign up as a new user.
+* Display list of book.
+* Browse per categorie.
 * Search feature for books ( per title or per author ).
 * Sort books by price.
 * Add to chart.
