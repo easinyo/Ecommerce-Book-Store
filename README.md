@@ -67,9 +67,9 @@ Used technologies:
 ----------------------------------------
 ![](/bookStore-Database.png)
 
-### Setup
+### Setup: 
 
-Please follow those instruction fto set up your local machine. 
+Please follow those instruction to set up your local machine. 
 
 1. Download xampp: https://www.apachefriends.org/download.html 
 2. Find and open ```php.ini``` in xampp file. For mac : ```application/xampp/etc``` and for windows it should be located at ```c:\xampp\php```
@@ -81,7 +81,7 @@ Please follow those instruction fto set up your local machine.
 4. once ```DatabaseName``` created, navigate to your project location, usually on ```c:\xampp\htdocs\BookStore``` and import ```bookstore.sql```
 5. Then ignore the error that shows up After clicking ```Go```. 
 
-### Running the WebApplication
+### Running the Web Application: Deployement Script
 
 1. Open xampp and go to manage servers and start ```Apache``` and ```MySQL``` web server.
 2. Open ```dbconnect.php``` and modify it.
