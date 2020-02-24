@@ -72,14 +72,15 @@ Used technologies:
 Please follow those instruction to set up your local machine. 
 
 1. Download xampp: https://www.apachefriends.org/download.html 
-2. Find and open ```php.ini``` in xampp file. For mac : ```application/xampp/etc``` and for windows it should be located at ```c:\xampp\php```
+2. Find and open ```php.ini``` in xampp file. For mac : Open your XAMPP application and ```press start``` on the ```general``` tab. After that go into the ```Volumes``` tab, and click ```mount```. Once it is mounted navigate click the ```explore``` button and it will open you the ```lampp``` folder, where all your application/apache related files are located.  
 3. Add those lines to the end in your ```php.ini```. 
    - For mac: ```extension=pgsql.so```
    - For windows: ```extension=php_pdo_pgsql.dll``` and ```extension=php_pgsql.dll```
-4. Pull this repository to your machine and make sure to locate at xampp/htdocs
-3. Open in your browser ```http://localhost:8080/phpmyadmin/``` and click ```New``` at the left Navigator to create a new database. (```name= DatabaseName```, ```uft code= utf8_unicode_ci```) <br /> 
-4. once ```DatabaseName``` created, navigate to your project location, usually on ```c:\xampp\htdocs\BookStore``` and import ```bookstore.sql```
-5. Then ignore the error that shows up After clicking ```Go```. 
+5. Pull this repository to your machine and make sure to locate at xampp/htdocs
+6. For mac: from the ```lampp``` folder navigate to ```etc``` > ```extra``` > ```httpd-xampp.conf```. Open this file and in the section ```Since xampp 1.4.3``` change the ```Require admin``` to ```Require all granted```
+7. Open in your browser ```http://localhost:8080/phpmyadmin/``` and click ```New``` at the left Navigator to create a new database. (```name= DatabaseName```, ```uft code= utf8_unicode_ci```) <br /> 
+8. once ```DatabaseName``` created, navigate to your project location, usually on ```c:\xampp\htdocs\BookStore``` and import ```bookstore.sql```
+9. Then ignore the error that shows up After clicking ```Go```. 
 
 ### Running the Web Application: Deployement Script
 
