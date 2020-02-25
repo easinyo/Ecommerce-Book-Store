@@ -1,7 +1,7 @@
 ## Team (Contributors)
 
-| Name                   | Email               |Student ID                 |
-|------------------------|---------------------|---------------------|
+| Name                   | Email               |Student ID   |
+|------------------------|---------------------|-------------|
 | Brahim Kanouche        | bkano020@uottawa.ca |8879715      |
 | Emmanuel Asinyo        | wkenn072@uottawa.ca |8890676      |
 | Sébastien Sanscartier  | ssans075@uottawa.ca |6978470      |
@@ -82,7 +82,7 @@ Please follow those instruction to set up your local machine.
 8. once ```DatabaseName``` created, navigate to your project location, usually on ```c:\xampp\htdocs\BookStore``` and import ```bookstore.sql```
 9. Then ignore the error that shows up After clicking ```Go```. 
 
-### Running the Web Application: Deployement Script
+### Deployement Script: Running the Web Application
 
 1. Open xampp and go to manage servers and start ```Apache``` and ```MySQL``` web server.
 2. Open ```dbconnect.php``` and modify it.
