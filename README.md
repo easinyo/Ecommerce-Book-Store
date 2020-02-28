@@ -106,7 +106,7 @@ N.B: if you created a new folder named ```example``` to pull the repository to i
 
 ## Setting-up the testing environment
 
-Unit tesiting: For the unit testing we used [Composer](https://getcomposer.org/) (v1.9.3) and [PHPUnit](https://phpunit.de/) (v7.0)
+Unit tesiting: For the unit testing we used [Composer](https://getcomposer.org/) (v1.9.3) and [PHPUnit](https://phpunit.de/) (v9.0)
 
 ### Composer
 
