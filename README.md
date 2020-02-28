@@ -104,3 +104,21 @@ Please follow those instruction to set up your local machine.
 
 N.B: if you created a new folder named ```example``` to pull the repository to it, make sure to add the name of the folder in your URL (e.g: http://localhost/example/BookStore/)
 
+## Setting-up the testing environment
+
+Unit tesiting: For the unit testing we used [Composer](https://getcomposer.org/) (v1.9.3) and [PHPUnit](https://phpunit.de/) (v7.0)
+
+### Composer
+
+Installing composer on windows/osx is different and you can find extra information on how to install it here: https://getcomposer.org/doc/00-intro.md
+Theses commands will install composer globally on your machine, and can be used by any of your project. 
+
+1. For mac, type in terminal: ```curl -sS https://getcomposer.org/installer | php```
+2. rename it to composer for ease of use: ```mv composer.phar /usr/local/in/composer```
+3. ```composer init```
+
+### PHPUnit
+
+1. ```composer require phpunit/phpunit```
+
+To run the tests in the ```tests``` folder, run ```./vendor/bin/phpunit tests``` from inside your project.
