@@ -78,13 +78,13 @@ if(isset($_POST['submit']))
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
     <style>
-      .modal-header {background:#D67B22;color:#fff;font-weight:800;}
+      .modal-header {background:#D4145A;color:#fff;font-weight:800;}
       .modal-body{font-weight:800;}
       .modal-body ul{list-style:none;}
-      .modal .btn {background:#D67B22;color:#fff;}
-      .modal a{color:#D67B22;}
+      .modal .btn {background:#D4145A;color:#fff;}
+      .modal a{color:#D4145A;}
       .modal-backdrop {position:inherit !important;}
-       #login_button,#register_button{background:none;color:#D67B22!important;}       
+       #login_button,#register_button{background:none;color:#D4145A!important;}       
        #query_button {position:fixed;right:0px;bottom:0px;padding:10px 80px;
                       background-color:#D4145A;color:#fff;border-color:#f05f40;border-radius:2px;}
   	@media(max-width:767px){
@@ -114,7 +114,7 @@ if(isset($_POST['submit']))
           {
             echo'
             <li>
-                <button type="button" id="login_button" class="btn btn-lg" data-toggle="modal" data-target="#login">Login</button>
+                <button type="button" id="login_button" color="#D4145A" data-toggle="modal" data-target="#login">Login</button>
                   <div id="login" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -204,15 +204,13 @@ if(isset($_POST['submit']))
       <div class="container-fluid" id="header">
           <div class="row">
               <div class="col-md-3 col-lg-3" id="category">
-                  <div style="background:#D67B22;color:#fff;font-weight:800;border:none;padding:15px;"> The Book Shop </div>
+                  <div style="background:#D4145A;color:#fff;font-weight:800;border:none;padding:15px;"> The Book Shop </div>
                   <ul>
                       <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
                       <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
                       <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
-                      <li> <a href="Product.php?value=Biographies%20and%20Auto%20Biographies"> Biographies & Auto Biographies </a> </li>
                       <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
-<!--                       <li> <a href="Product.php?value=Regional%20Books"> Regional Books </a> </li>
- -->                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
+                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
                       <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
 
                   </ul>
@@ -302,9 +300,6 @@ if(isset($_POST['submit']))
                   <div class="tag">New</div>
                   <div class="tag-side"><img src="img/tag.png"></div>
                   <img class="block-center img-responsive" src="img/new/3.png">
-                  <hr>
-                  Indian Family Bussiness Mantras <br>
-                  Rs 400 &nbsp
                   <span style="text-decoration:line-through;color:#828282;"> 595 </span>
                   <span class="label label-warning">33%</span>
               </div>
@@ -352,7 +347,7 @@ if(isset($_POST['submit']))
               <div class="hidden-sm-down col-md-2 col-lg-2">
               </div>
               <div class="col-sm-4 col-md-3 col-lg-3 text-center">
-                  <h2 style="color:#D67B22;">Follow Us on our social media</h2>
+                  <h2 style="color:#D4145A;">Follow Us on our social media</h2>
                   <div>
                       <a href="https://twitter.com/">
                       <img title="Twitter" alt="Twitter" src="img/social/twitter.png" width="35" height="35" />

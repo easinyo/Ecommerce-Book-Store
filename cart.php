@@ -44,8 +44,8 @@
     <link href="css/my.css" rel="stylesheet">
     <style>
         #cart {margin-top:30px;margin-bottom:30px;}
-        .panel {border:1px solid #D67B22;padding-left:0px;padding-right:0px;}
-        .panel-heading {background:#D67B22 !important;color:white !important;}        
+        .panel {border:1px solid #D4145A;padding-left:0px;padding-right:0px;}
+        .panel-heading {background:#D4145A !important;color:white !important;}        
         @media only screen and (width: 767px) { body{margin-top:150px;}}
     </style>
 
@@ -180,7 +180,7 @@
 echo '<div class="container-fluid" id="cart">
       <div class="row">
           <div class="col-xs-12 text-center" id="heading">
-                 <h2 style="color:#D67B22;text-transform:uppercase;">  YOUR CART </h2>
+                 <h2 style="color:#D4145A;text-transform:uppercase;">  YOUR CART </h2>
            </div>
         </div>';
 	if(isset($_SESSION['user']))
@@ -217,7 +217,7 @@ echo '<div class="container-fluid" id="cart">
                              if($j%2==0)
                                  echo '<div class="row">'; 
                                  echo '                
-                                      <div class="panel col-xs-12 col-sm-4 col-sm-offset-'.$offset.' col-md-4 col-md-offset-'.$offset.' col-lg-4 col-lg-offset-'.$offset.' text-center" style="color:#D67B22;font-weight:800;">
+                                      <div class="panel col-xs-12 col-sm-4 col-sm-offset-'.$offset.' col-md-4 col-md-offset-'.$offset.' col-lg-4 col-lg-offset-'.$offset.' text-center" style="color:#D4145A;font-weight:800;">
                                           <div class="panel-heading">Order '. $i .'
                                           </div>
                                           <div class="panel-body">
@@ -230,7 +230,7 @@ echo '<div class="container-fluid" id="cart">
                                                       									Price : '.$row['Price'].' <br>
                                                       									Sub Total : '.$Stotal.' <br>
                                                                        <a href="cart.php?remove='.$row['PID'].'" class="btn btn-sm" 
-                                                                          style="background:#D67B22;color:white;font-weight:800;">
+                                                                          style="background:#D4145A;color:white;font-weight:800;">
                                                                           Remove
                                                                         </a>
                                         </div>
@@ -244,7 +244,7 @@ echo '<div class="container-fluid" id="cart">
                     
                     echo '<div class="container">
                               <div class="row">  
-                                 <div class="panel col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 text-center" style="color:#D67B22;font-weight:800;">
+                                 <div class="panel col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 text-center" style="color:#D4145A;font-weight:800;">
                                      <div class="panel-heading">TOTAL
                                      </div>
                                       <div class="panel-body">'.$total.'
@@ -256,10 +256,10 @@ echo '<div class="container-fluid" id="cart">
                      echo '<br> <br>';
                      echo '<div class="row">
                              <div class="col-xs-8 col-xs-offset-2  col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">
-                                  <a href="index.php" class="btn btn-lg" style="background:#D67B22;color:white;font-weight:800;">Continue Shopping</a>
+                                  <a href="index.php" class="btn btn-lg" style="background:#D4145A;color:white;font-weight:800;">Continue Shopping</a>
                              </div>
                              <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-4 ">
-                                  <a href="cart.php?place=true" class="btn btn-lg" style="background:#D67B22;color:white;font-weight:800;margin-top:5px;">Place Order</a>
+                                  <a href="cart.php?place=true" class="btn btn-lg" style="background:#D4145A;color:white;font-weight:800;margin-top:5px;">Place Order</a>
                              </div>
                            </div>
                            ';
@@ -269,12 +269,12 @@ echo '<div class="container-fluid" id="cart">
                         echo ' 
                          <div class="row">
                             <div class="col-xs-9 col-xs-offset-3 col-sm-4 col-sm-offset-5 col-md-4 col-md-offset-5">
-                                 <span class="text-center" style="color:#D67B22;font-weight:bold;">&nbsp &nbsp &nbsp &nbspCart Is Empty</span>
+                                 <span class="text-center" style="color:#D4145A;font-weight:bold;">&nbsp &nbsp &nbsp &nbspCart Is Empty</span>
                              </div>
                          </div>
                          <div class="row">
                              <div class="col-xs-9 col-xs-offset-3 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
-                                  <a href="index.php" class="btn btn-lg" style="background:#D67B22;color:white;font-weight:800;">Do Some Shopping</a>
+                                  <a href="index.php" class="btn btn-lg" style="background:#D4145A;color:white;font-weight:800;">Do Some Shopping</a>
                              </div>
                           </div>';
                      }               

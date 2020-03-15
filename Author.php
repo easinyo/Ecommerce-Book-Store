@@ -102,7 +102,7 @@ if(!isset($_SESSION['user']))
     echo '<div class="container-fluid" id="books">
         <div class="row">
           <div class="col-xs-12 text-center" id="heading">
-                 <h2 style="color:#D67B22;text-transform:uppercase;margin-bottom:0px;"> '. $author .' STORE </h2>
+                 <h2 style="color:#D4145A;text-transform:uppercase;margin-bottom:0px;"> '. $author .' STORE </h2>
            </div>
         </div>      
         <div class="container fluid">
