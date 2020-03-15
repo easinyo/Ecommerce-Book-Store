@@ -40,7 +40,7 @@ if(!isset($_SESSION['user']))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/logo.jpg" style="width: 118px;margin-top: -7px;margin-left: -10px;"></a>
+          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/bookstore-logo.png" style="width: 60px;margin: -15px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
