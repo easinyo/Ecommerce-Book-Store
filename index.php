@@ -209,10 +209,8 @@ if(isset($_POST['submit']))
                       <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
                       <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
                       <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
-                      <li> <a href="Product.php?value=Biographies%20and%20Auto%20Biographies"> Biographies & Auto Biographies </a> </li>
                       <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
-<!--                       <li> <a href="Product.php?value=Regional%20Books"> Regional Books </a> </li>
- -->                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
+                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
                       <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
 
                   </ul>
@@ -325,6 +323,15 @@ if(isset($_POST['submit']))
             </a>
           </div>
       </div>
+  </div>
+
+  <div class="container-fluid" id="header">
+    <div style="background:#D67B22;color:#fff;font-weight:800;border:none;padding:20px;"> About us </div>
+      <p style="font-family: Arial, Helvetica, sans-serif; margin: 20px;font-size: 15px;">  BookStore is an online website developed during CSI3140 Class in Winter 2020. BookStore allow the users to create accounts and browse for their favorite books, per title, per author and per category. Once the books needed are found, they can be added to the cart and the books are shipped to our clients within a week ! </br>
+      BookStore has a purpose to sprade the love of books in the community and make books accessible for everyone. </br> </br>
+      <blockquote style="font-weight: bold;font-style: italic;">“A room without books is like a body without a soul.” ― Marcus Tullius Cicero</blockquote>
+      </p>
+
   </div>
 
   <footer style="margin-left:-6%;margin-right:-6%;">
