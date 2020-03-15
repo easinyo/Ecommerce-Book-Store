@@ -27,7 +27,7 @@ if(!isset($_SESSION['user']))
         #description {border:1px solid #DEEAEE; margin-bottom:20px;padding:20px 50px;background:#fff;margin-left:10%;margin-right:10%;}
         #description hr{margin:auto;}
         #service{background:#fff;padding:20px 10px;width:112%;margin-left:-6%;margin-right:-6%;}
-        .glyphicon {color:#D67B22;}
+        .glyphicon {color:#D4145A;}
     </style>
 
 </head>

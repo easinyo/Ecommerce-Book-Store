@@ -323,7 +323,7 @@ if(isset($_POST['submit']))
   </div>
 
   <div class="container-fluid" id="header">
-    <div style="background:#D67B22;color:#fff;font-weight:800;border:none;padding:20px;"> About us </div>
+    <div style="background:#D4145A;color:#fff;font-weight:800;border:none;padding:20px;"> About us </div>
       <p style="font-family: Arial, Helvetica, sans-serif; margin: 20px;font-size: 15px;">  BookStore is an online website developed during CSI3140 Class in Winter 2020. BookStore allow the users to create accounts and browse for their favorite books, per title, per author and per category. Once the books needed are found, they can be added to the cart and the books are shipped to our clients within a week ! </br>
       BookStore has a purpose to sprade the love of books in the community and make books accessible for everyone. </br> </br>
       <blockquote style="font-weight: bold;font-style: italic;">“A room without books is like a body without a soul.” ― Marcus Tullius Cicero</blockquote>
