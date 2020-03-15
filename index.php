@@ -86,7 +86,7 @@ if(isset($_POST['submit']))
       .modal-backdrop {position:inherit !important;}
        #login_button,#register_button{background:none;color:#D67B22!important;}       
        #query_button {position:fixed;right:0px;bottom:0px;padding:10px 80px;
-                      background-color:#D67B22;color:#fff;border-color:#f05f40;border-radius:2px;}
+                      background-color:#D4145A;color:#fff;border-color:#f05f40;border-radius:2px;}
   	@media(max-width:767px){
         #query_button {padding: 5px 20px;}
   	}
@@ -327,38 +327,6 @@ if(isset($_POST['submit']))
       </div>
   </div>
 
-  <div class="container-fluid" id="author">
-      <h3 style="color:#D67B22;"> POPULAR AUTHORS </h3>
-      <div class="row">
-          <div class="col-sm-5 col-md-3 col-lg-3">
-              <a href="Author.php?value=Durjoy%20Datta"><img class="img-responsive center-block" src="img/popular-author/0.jpg"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=Chetan%20Bhagat"><img class="img-responsive center-block" src="img/popular-author/1.jpg"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=Dan%20Brown"><img class="img-responsive center-block" src="img/popular-author/2.jpg"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=Ravinder%20Singh"><img class="img-responsive center-block" src="img/popular-author/3.jpg"></a>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-sm-5 col-md-3 col-lg-3">
-              <a href="Author.php?value=Jeffrey%20Archer"><img class="img-responsive center-block" src="img/popular-author/4.jpg"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=Salman%20Rushdie"><img class="img-responsive center-block" src="img/popular-author/5.jpg"><a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=J%20K%20Rowling"><img class="img-responsive center-block" src="img/popular-author/6.jpg"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-              <a href="Author.php?value=Subrata%20Roy"><img class="img-responsive center-block" src="img/popular-author/7.jpg"></a>
-          </div>
-      </div>
-  </div>
-
   <footer style="margin-left:-6%;margin-right:-6%;">
       <div class="container-fluid">
           <div class="row">
@@ -366,9 +334,9 @@ if(isset($_POST['submit']))
               </div>
               <div class="col-sm-7 col-md-5 col-lg-5">
                   <div class="row text-center">
-                      <h2>Let's Get In Touch!</h2>
+                      <h2>You need help getting your Book?</h2>
                       <hr class="primary">
-                      <p>Still Confused? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                      <p>Email or call us and we will be happy to help !</p>
                   </div>
                   <div class="row">
                       <div class="col-md-6 text-center">
@@ -384,21 +352,21 @@ if(isset($_POST['submit']))
               <div class="hidden-sm-down col-md-2 col-lg-2">
               </div>
               <div class="col-sm-4 col-md-3 col-lg-3 text-center">
-                  <h2 style="color:#D67B22;">Follow Us At</h2>
+                  <h2 style="color:#D67B22;">Follow Us on our social media</h2>
                   <div>
-                      <a href="https://twitter.com/strandbookstore">
+                      <a href="https://twitter.com/">
                       <img title="Twitter" alt="Twitter" src="img/social/twitter.png" width="35" height="35" />
                       </a>
-                      <a href="https://www.linkedin.com/company/strand-book-store">
+                      <a href="https://www.linkedin.com/">
                       <img title="LinkedIn" alt="LinkedIn" src="img/social/linkedin.png" width="35" height="35" />
                       </a>
-                      <a href="https://www.facebook.com/strandbookstore/">
+                      <a href="https://www.facebook.com/">
                       <img title="Facebook" alt="Facebook" src="img/social/facebook.png" width="35" height="35" />
                       </a>
-                      <a href="https://plus.google.com/111917722383378485041">
+                      <a href="https://plus.google.com/">
                       <img title="google+" alt="google+" src="img/social/google.jpg" width="35" height="35" />
                       </a>
-                      <a href="https://www.pinterest.com/strandbookstore/">
+                      <a href="https://www.pinterest.com/">
                       <img title="Pinterest" alt="Pinterest" src="img/social/pinterest.jpg" width="35" height="35" />
                       </a>
                   </div>
@@ -409,32 +377,32 @@ if(isset($_POST['submit']))
 
 <div class="container">
   <!-- Trigger the modal with a button -->
-  <button type="button" id="query_button" class="btn btn-lg" data-toggle="modal" data-target="#query">Ask query</button>
+  <button type="button" id="query_button" class="btn btn-lg" data-toggle="modal" data-target="#query">Contact us</button>
   <!-- Modal -->
   <div class="modal fade" id="query" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
           <div class="modal-header text-center">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Ask your query here</h4>
+            <h4 class="modal-title">Contact us</h4>
           </div>
           <div class="modal-body">           
                     <form method="post" action="query.php" class="form" role="form">
                         <div class="form-group">
-                             <label class="sr-only" for="name">Name</label>
+                             <label class="sr-only" for="name">Your name</label>
                              <input type="text" class="form-control"  placeholder="Your Name" name="sender" required>
                         </div>
                         <div class="form-group">
-                             <label class="sr-only" for="email">Email</label>
+                             <label class="sr-only" for="email">Your email</label>
                              <input type="email" class="form-control" placeholder="abc@gmail.com" name="senderEmail" required>
                         </div>
                         <div class="form-group">
                              <label class="sr-only" for="query">Message</label>
-                             <textarea class="form-control" rows="5" cols="30" name="message" placeholder="Your Query" required></textarea>
+                             <textarea class="form-control" rows="5" cols="30" name="message" placeholder="Your message" required></textarea>
                         </div>
                         <div class="form-group">
                               <button type="submit" name="submit" value="query" class="btn btn-block">
-                                                              Send Query
+                                                              Send
                                </button>
                         </div>
                     </form>
