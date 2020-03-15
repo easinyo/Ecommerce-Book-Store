@@ -61,7 +61,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
          	 </button>
-          	<a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/logo.jpg"  style="width: 147px;margin: 0px;"></a>
+          	<a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 147px;margin: 0px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
