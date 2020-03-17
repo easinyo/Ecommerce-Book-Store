@@ -107,8 +107,8 @@ echo '
                                echo ' </select>';
 echo'                           <br><br><br>
                                 <a id="buyLink" href="'.$target.'" class="btn btn-lg btn-danger" style="padding:15px;color:white;text-decoration:none;"> 
-                                    ADD TO CART for Rs '.$row["Price"] .' <br>
-                                    <span style="text-decoration:line-through;"> RS'.$row["MRP"].'</span> 
+                                    ADD TO CART for CAD '.$row["Price"] .' <br>
+                                    <span style="text-decoration:line-through;"> CAD'.$row["MRP"].'</span> 
                                     | '.$row["Discount"].'% discount
                                  </a> 
 

@@ -274,7 +274,7 @@ if(isset($_POST['submit']))
                   <img class="book block-center img-responsive" src="img/new/1.jpg">
                   <hr>
                   Like A Love Song <br>
-                  Rs 113  &nbsp
+                  CAD 113  &nbsp
                   <span style="text-decoration:line-through;color:#828282;"> 175 </span>
                   <span class="label label-warning">35%</span>
               </div>
@@ -288,7 +288,7 @@ if(isset($_POST['submit']))
                   <img class="block-center img-responsive" src="img/new/2.jpg">
                   <hr>
                   General Knowledge 2017  <br>
-                  Rs 68 &nbsp
+                  CAD 68 &nbsp
                   <span style="text-decoration:line-through;color:#828282;"> 120 </span>
                   <span class="label label-warning">43%</span>
               </div>
@@ -313,7 +313,7 @@ if(isset($_POST['submit']))
                   <img class="block-center img-responsive" src="img/new/4.jpg">
                   <hr>
                   Kiran s SSC Mathematics Chapterwise Solutions <br>
-                  Rs 289 &nbsp
+                  CAD 289 &nbsp
                   <span style="text-decoration:line-through;color:#828282;"> 435 </span>
                   <span class="label label-warning">33%</span>
               </div>
