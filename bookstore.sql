@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS `cart` (
 
 INSERT INTO `cart` (`Customer`, `Product`, `Quantity`) VALUES
 ('hello', 'ENT-12', 1),
+('sebastien', 'ACA-6', 1),
 ('emmanuel', 'NEW-4', 5),
 ('brahim', 'ENT-1', 3);
 
@@ -148,6 +149,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `users` (`UserName`, `Password`) VALUES
+('sebastien', 'admin'),
 ('emmanuel', 'admin'),
 ('hello', 'hello'),
 ('brahim', 'admin');
