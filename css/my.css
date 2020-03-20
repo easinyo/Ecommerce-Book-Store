@@ -11,7 +11,7 @@ body {margin-top:50px;margin-left:5%;margin-right:5%;font-family:"Open sans";bac
 #category li {display:block; font-weight:400; padding:10px; border-top: 1px solid #ccc;margin-left:-40px; }
 #offer img {margin-top:10px;margin-bottom:15px;border:1px solid #DEEAEE;}
 #new {font-weight:800;}
-.tag {display:inline;float:left;padding:2px 5px;width:auto;background:##2E3192;color:#fff;height:23px;}
+.tag {display:inline;float:left;padding:2px 5px;width:auto;background:limegreen;color:#fff;height:23px;}
 .tag-side{display:inline;float:left;}
 .book-block {margin-top:20px;padding:5px;background:##2E3192; border :1px solid #DEEAEE;border-radius:10px;}
 #author {margin-top:20px; background:##2E3192; border :1px solid #DEEAEE;border-radius:10px;}

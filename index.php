@@ -84,7 +84,7 @@ if(isset($_POST['submit']))
       .modal .btn {background:#D4145A;color:#fff;}
       .modal a{color:#D4145A;}
       .modal-backdrop {position:inherit !important;}
-       #login_button,#register_button{background:none;color:#D4145A!important;}       
+       #login_button,#register_button{background:none;color:#DEEAEE!important;}       
        #query_button {position:fixed;right:0px;bottom:0px;padding:10px 80px;
                       background-color:#D4145A;color:#fff;border-color:#f05f40;border-radius:2px;}
   	@media(max-width:767px){
@@ -274,8 +274,8 @@ if(isset($_POST['submit']))
                   <img class="book block-center img-responsive" src="img/new/1.jpg">
                   <hr>
                   Like A Love Song <br>
-                  CAD 113  &nbsp
-                  <span style="text-decoration:line-through;color:#828282;"> 175 </span>
+                            CAD 11.30$  &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 15.25$ </span>
                   <span class="label label-warning">35%</span>
               </div>
             </a>
@@ -287,9 +287,9 @@ if(isset($_POST['submit']))
                   <div class="tag-side"><img src="img/tag.png"></div>
                   <img class="block-center img-responsive" src="img/new/2.jpg">
                   <hr>
-                  General Knowledge 2017  <br>
-                  CAD 68 &nbsp
-                  <span style="text-decoration:line-through;color:#828282;"> 120 </span>
+                            General Knowledge 2017  <br>
+                            CAD 68.00$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 97.24$ </span>
                   <span class="label label-warning">43%</span>
               </div>
             </a>
@@ -300,7 +300,10 @@ if(isset($_POST['submit']))
                   <div class="tag">New</div>
                   <div class="tag-side"><img src="img/tag.png"></div>
                   <img class="block-center img-responsive" src="img/new/3.png">
-                  <span style="text-decoration:line-through;color:#828282;"> 595 </span>
+                <hr>
+                Indian Family Buisness Mantras <br>
+                            CAD 28.9$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 38.43 </span>
                   <span class="label label-warning">33%</span>
               </div>
             </a>
@@ -313,8 +316,8 @@ if(isset($_POST['submit']))
                   <img class="block-center img-responsive" src="img/new/4.jpg">
                   <hr>
                   Kiran s SSC Mathematics Chapterwise Solutions <br>
-                  CAD 289 &nbsp
-                  <span style="text-decoration:line-through;color:#828282;"> 435 </span>
+                            CAD 28.99$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 38.55$ </span>
                   <span class="label label-warning">33%</span>
               </div>
             </a>
