@@ -103,7 +103,7 @@ if(isset($_POST['submit']))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 60px;margin: 0px;"></a>
+          <a class="navbar-brand" href="#" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 50px;margin: 0px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -114,7 +114,7 @@ if(isset($_POST['submit']))
           {
             echo'
             <li>
-                <button type="button" id="login_button" color="#D4145A" data-toggle="modal" data-target="#login">Login</button>
+                <button type="button" id="login_button" class="btn btn-lg" color="#DEEAEE" data-toggle="modal" data-target="#login">Login</button>
                   <div id="login" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -182,8 +182,8 @@ if(isset($_POST['submit']))
           } 
         else
           {   echo' <li> <a href="#" class="btn btn-lg"> Hello ' .$_SESSION['user']. '.</a></li>
-                    <li> <a href="cart.php" class="btn btn-lg"> Cart </a> </li>; 
-                    <li> <a href="destroy.php" class="btn btn-lg"> LogOut </a> </li>';
+                    <li> <a href="cart.php" class="btn btn-lg" color="#DEEAEE"> Cart </a> </li>;
+                    <li> <a href="destroy.php" class="btn btn-lg" color="#DEEAEE"> Log Out </a> </li>';
                
           }
 ?>
@@ -359,7 +359,7 @@ if(isset($_POST['submit']))
               <div class="hidden-sm-down col-md-2 col-lg-2">
               </div>
               <div class="col-sm-4 col-md-3 col-lg-3 text-center">
-                  <h2 style="color:#D4145A;">Follow Us on our social media</h2>
+                  <h2 style="color:#DEEAEE;">Follow Us on our social media</h2>
                   <div>
                       <a href="https://twitter.com/">
                       <img title="Twitter" alt="Twitter" src="img/social/twitter.png" width="35" height="35" />

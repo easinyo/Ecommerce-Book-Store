@@ -1,7 +1,7 @@
 body {margin-top:50px;margin-left:5%;margin-right:5%;font-family:"Open sans";background: #F5F8F9;overflow-x:hidden;}
 .navbar {background:##2E3192;display:inline-block;z-index:100;color:#000;}
 .navbar {background:#2E3192;display:inline-block;z-index:100;color:#000;}
-.navbar li a {color:#D4145A!important;}
+.navbar li a {color:#DEEAEE!important;}
 #top {border:1px solid #DEEAEE;background:#fff;border-radius:10px;}
 #searchbox {background:#D4145A;overflow:hidden;}
 #header{margin-top:20px;}
