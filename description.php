@@ -27,7 +27,6 @@ if(!isset($_SESSION['user']))
         #description {border:1px solid #DEEAEE; margin-bottom:20px;padding:20px 50px;background:#fff;margin-left:10%;margin-right:10%;}
         #description hr{margin:auto;}
         #service{background:#fff;padding:20px 10px;width:112%;margin-left:-6%;margin-right:-6%;}
-        .glyphicon {color:#D4145A;}
     </style>
 
 </head>
@@ -42,7 +41,7 @@ if(!isset($_SESSION['user']))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/bookstore-logo.png" style="width: 60px;margin: -15px;"></a>
+          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/bookstore-logo.png" style="width: 50px;margin: -15px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,7 +52,7 @@ if(!isset($_SESSION['user']))
                     {
                       echo'
                     <li><a href="cart.php" class="btn btn-md"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
-                    <li><a href="destroy.php" class="btn btn-md"> <span class="glyphicon glyphicon-log-out">LogOut</span></a></li>
+                    <li><a href="destroy.php" class="btn btn-md"> <span class="glyphicon glyphicon-log-out">Log Out</span></a></li>
                          ';
                     }
                ?>

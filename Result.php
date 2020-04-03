@@ -33,7 +33,7 @@ if(!isset($_SESSION['user']))
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
              </button>
-            <a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 60px;margin: -10px;"></a>
+            <a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 50px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

@@ -61,7 +61,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
          	 </button>
-          	<a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 50px;margin: 0px;"></a>
+          	<a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 50px;margin: 0;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -291,4 +291,4 @@ echo '<div class="container-fluid" id="cart">
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 </body>
-<html>
+<html>		

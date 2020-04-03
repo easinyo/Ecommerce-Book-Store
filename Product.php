@@ -40,7 +40,7 @@ if(!isset($_SESSION['user']))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/bookstore-logo.png" style="width: 60px;margin: -15px;"></a>
+          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/bookstore-logo.png" style="width: 50px;margin: -15px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -132,7 +132,7 @@ if(!isset($_SESSION['user']))
         </div>';
 
         if(mysqli_num_rows($result) > 0) 
-        {   
+        {
             while($row = mysqli_fetch_assoc($result)) 
             {
             $path="img/books/" .$row['PID'].".jpg";

@@ -182,8 +182,9 @@ if(isset($_POST['submit']))
           } 
         else
           {   echo' <li> <a href="#" class="btn btn-lg"> Hello ' .$_SESSION['user']. '.</a></li>
-                    <li> <a href="cart.php" class="btn btn-lg" color="#DEEAEE"> Cart </a> </li>;
-                    <li> <a href="destroy.php" class="btn btn-lg" color="#DEEAEE"> Log Out </a> </li>';
+                    <li> <a href="cart.php" class="btn btn-lg" color="#DEEAEE"><span class="glyphicon glyphicon-shopping-cart">Cart </span></a> </li>;
+                    <li> <a href="destroy.php" class="btn btn-lg" color="#DEEAEE">
+              <span class="glyphicon glyphicon-log-out">LogOut </span></a> </li>';
                
           }
 ?>
