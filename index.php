@@ -211,7 +211,7 @@ if(isset($_POST['submit']))
                       <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
                       <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
                       <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
-                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
+                      <li> <a href="Product.php?value=Buisness%20and%20Management"> Buisness & Management </a> </li>
                       <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
 
                   </ul>

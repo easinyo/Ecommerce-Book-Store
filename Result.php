@@ -156,7 +156,7 @@ $result=mysqli_query($con,$query) or die(mysqli_error($con));;
     echo '<div class="container-fluid" id="books">
         <div class="row">
           <div class="col-xs-12 text-center" id="heading">
-                 <h4 style="color:#00B9F5;text-transform:uppercase;"> found  '. mysqli_num_rows($result) .' records </h4>
+                 <h4 style="color:#00B9F5;text-transform:uppercase;"> found  '. mysqli_num_rows($result) .' books </h4>
            </div>
         </div>';
         if(mysqli_num_rows($result) > 0) 
