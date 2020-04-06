@@ -9,7 +9,8 @@
 
 # Project - BookStore website
 
-A book store website to sell the pdf and hardcopies best seller and new coming books. The website will allow the user to browse for books, add them to chart and check out.
+* A book store website to sell the pdf and hardcopies best seller and new coming books. 
+* The website will allow the user to browse for books, add them to chart and check out.
 
 ------------------
 
