@@ -80,17 +80,16 @@ We will be using those colors as our secondary color palette
 
 Main font type used is: **Arial**
 
-## Development Environment Setup Guide
-----------------------------------------
-Please follow those instruction to set up your local work environment. (To be added)
-
-Used technologies: 
+## Used technologies: 
  - HTML5
  - CSS3
  - Javascript
  - PHP
  - SQL
-
+ - PHP Unit
+## Development Environment Setup Guide
+----------------------------------------
+Please follow those instruction to set up your local work environment. (To be added)
 
 ## Database Schema
 ----------------------------------------
