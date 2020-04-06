@@ -16,31 +16,40 @@
 
 ## Features
 * Login as an existing user.
+
 ![](screenshots/login_form.png)
 
 * Sign up as a new user.
+
 ![](screenshots/signup_form.png)
 
 * Display list of book.
+
 ![](screenshots/home_logged_in.png)
 
 * Browse per categorie.
+
 ![](screenshots/category_research.png)
 
 * Search feature for books ( per title or per author ).
+
 ![](screenshots/book_research.png)
 
 * Display Book info
+
 ![](screenshots/book_info1.png)
 ![](screenshots/book_info2.png)
 
 * Sort books by price.
+
 ![](screenshots/home_logged_in.png)
 
 * Add to chart.
+
 ![](screenshots/cart.png)
 
 * Check out by sending cheques or cash.
+
 ![](screenshots/cart.png)
 
 ------------------
