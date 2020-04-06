@@ -212,8 +212,7 @@ if(isset($_POST['submit']))
                       <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
                       <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
                       <li> <a href="Product.php?value=Buisness%20and%20Management"> Buisness & Management </a> </li>
-                      <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
-
+                      <li> <a href="Product.php?value=Sports"> Sports </a> </li>
                   </ul>
               </div>
               <div class="col-md-6 col-lg-6">
@@ -257,8 +256,8 @@ if(isset($_POST['submit']))
                   </div>
               </div>
               <div class="col-md-3 col-lg-3" id="offer">
-                  <a href="Product.php?value=Regional%20Books">              <img class="img-responsive center-block" src="img/offers/1.png"></a>
-                  <a href="Product.php?value=Health%20and%20Cooking">        <img class="img-responsive center-block" src="img/offers/2.png"></a>
+                  <a href="Product.php?value=Buisness%20and%20Management">              <img class="img-responsive center-block" src="img/offers/1.png"></a>
+                  <a href="Product.php?value=Literature%20and%20Fiction">        <img class="img-responsive center-block" src="img/offers/2.png"></a>
                   <a href="Product.php?value=Academic%20and%20Professional"> <img class="img-responsive center-block" src="img/offers/3.png"></a>
               </div>
           </div>
