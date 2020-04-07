@@ -205,13 +205,11 @@ if(isset($_POST['submit']))
       <div class="container-fluid" id="header">
           <div class="row">
               <div class="col-md-3 col-lg-3" id="category">
-                  <div style="background:#D4145A;color:#fff;font-weight:800;border:none;padding:15px;"> The Book Shop </div>
+                  <div style="background:#D4145A;color:#fff;font-weight:800;border:none;padding:15px;"> Book Categories </div>
                   <ul>
-                      <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
-                      <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
-                      <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
-                      <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
-                      <li> <a href="Product.php?value=Buisness%20and%20Management"> Buisness & Management </a> </li>
+                      <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature </a> </li>
+                      <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic </a> </li>
+                      <li> <a href="Product.php?value=Children%20and%20Teens"> Children </a> </li>
                       <li> <a href="Product.php?value=Sports"> Sports </a> </li>
                   </ul>
               </div>
@@ -267,58 +265,58 @@ if(isset($_POST['submit']))
   <div class="container-fluid text-center" id="new">
       <div class="row">
           <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-1&category=new">
+           <a href="description.php?ID=SPO-1&category=Sports">
               <div class="book-block">
                   <div class="tag">New</div>
                   <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="book block-center img-responsive" src="img/new/1.jpg">
+                  <img class="book block-center img-responsive" src="img/books/SPO-1.jpg">
                   <hr>
-                  Like A Love Song <br>
-                            CAD 11.30$  &nbsp
-                            <span style="text-decoration:line-through;color:#828282;"> 15.25$ </span>
-                  <span class="label label-warning">35%</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-2&category=new">
-              <div class="book-block">
-                  <div class="tag">New</div>
-                  <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="block-center img-responsive" src="img/new/2.jpg">
-                  <hr>
-                            General Knowledge 2017  <br>
-                            CAD 68.00$ &nbsp
-                            <span style="text-decoration:line-through;color:#828282;"> 97.24$ </span>
-                  <span class="label label-warning">43%</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-3&category=new">
-              <div class="book-block">
-                  <div class="tag">New</div>
-                  <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="block-center img-responsive" src="img/new/3.png">
-                <hr>
-                Indian Family Buisness Mantras <br>
-                            CAD 28.9$ &nbsp
-                            <span style="text-decoration:line-through;color:#828282;"> 38.43 </span>
+                  Moneyball: The Art of Winning an Unfair Game <br>
+                            CAD 10.00$  &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 15.00$ </span>
                   <span class="label label-warning">33%</span>
               </div>
             </a>
           </div>
           <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-4&category=new">
+           <a href="description.php?ID=SPO-2&category=Sports">
               <div class="book-block">
                   <div class="tag">New</div>
                   <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="block-center img-responsive" src="img/new/4.jpg">
+                  <img class="block-center img-responsive" src="img/books/SPO-2.jpg">
+                  <hr>
+                            Open  <br>
+                            CAD 10.00$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 20.00$ </span>
+                  <span class="label label-warning">50%</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3">
+           <a href="description.php?ID=SPO-3&category=Sports">
+              <div class="book-block">
+                  <div class="tag">New</div>
+                  <div class="tag-side"><img src="img/tag.png"></div>
+                  <img class="block-center img-responsive" src="img/books/SPO-3.jpg">
+                <hr>
+                The game <br>
+                            CAD 12.00$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 15.00 </span>
+                  <span class="label label-warning">25%</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3">
+           <a href="description.php?ID=SPO-4&category=Sports">
+              <div class="book-block">
+                  <div class="tag">New</div>
+                  <div class="tag-side"><img src="img/tag.png"></div>
+                  <img class="block-center img-responsive" src="img/books/SPO-4.jpg">
                   <hr>
                   Kiran s SSC Mathematics Chapterwise Solutions <br>
-                            CAD 28.99$ &nbsp
-                            <span style="text-decoration:line-through;color:#828282;"> 38.55$ </span>
-                  <span class="label label-warning">33%</span>
+                            CAD 20.00$ &nbsp
+                            <span style="text-decoration:line-through;color:#828282;"> 25.00$ </span>
+                  <span class="label label-warning">25%</span>
               </div>
             </a>
           </div>

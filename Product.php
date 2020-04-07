@@ -169,13 +169,4 @@ if(!isset($_SESSION['user']))
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>	
-<!--	
-<script>
-$('#my_select').change(function() {   
-   // assign the value to a variable, so you can test to see if it is working
-    var selectVal = $('#my_select :selected').val();
-    alert(selectVal);
-});
-</script>
 
--->
