@@ -75,7 +75,7 @@ Main font type used is: **Arial**
 
 * Check out.
 
-![](screenshots/checkout.PNG)
+![](screenshots/checkout.png)
 
 ------------------
 
