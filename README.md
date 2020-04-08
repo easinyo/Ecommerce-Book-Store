@@ -3,7 +3,7 @@
 | Name                   | Email               |Student ID   |
 |------------------------|---------------------|-------------|
 | Brahim Kanouche        | bkano020@uottawa.ca |8879715      |
-| Emmanuel Asinyo        | wkenn072@uottawa.ca |8890676      |
+| Emmanuel Asinyo        | easin081@uottawa.ca |8890676      |
 | Sébastien Sanscartier  | ssans075@uottawa.ca |6978470      |
 
 
@@ -14,7 +14,32 @@
 
 ------------------
 
-## Features
+# Color Palette
+## Primary Colors
+We will be using these colors as our primary one through the whole website. With Black or white test.
+![](img/PrimaryColors.png)
+
+## Complemenary Colors
+We will be using those colors as our secondary color palette
+![](img/complementaryColorPalette.jfif)
+
+# Fonts and Type scale
+
+| scale category| font    | size   | case      |
+|---------------|---------|--------|-----------|
+|  H1           | Light   |  96    | Sentence  |
+|  H2           | Light   |  60    | Sentence  |
+|  H3           | Regular |  48    | Sentence  |
+|  H4           | Regular |  34    | Sentence  |
+|  H5           | Medium  |  24    | Sentence  |
+|  H6           | Regular |  20    | Sentence  |
+|  body         | Regular |  16    | Sentence  |
+|  p            | Regular |  16    | Sentence  |
+|  button       | Medium  |  14    | All caps  |
+
+Main font type used is: **Arial**
+
+# Features
 * Login as an existing user.
 
 ![](screenshots/login_form.png)
