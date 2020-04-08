@@ -50,11 +50,11 @@ Main font type used is: **Arial**
 
 * Display list of book.
 
-![](screenshots/home_logged_in.png)
+![](screenshots/home.png)
 
 * Browse per categorie.
 
-![](screenshots/category_research.png)
+![](screenshots/categories.png)
 
 * Search feature for books ( per title or per author ).
 
@@ -65,17 +65,17 @@ Main font type used is: **Arial**
 ![](screenshots/book_info1.png)
 ![](screenshots/book_info2.png)
 
-* Sort books by price.
+* Sort books by price or discount.
 
-![](screenshots/home_logged_in.png)
+![](screenshots/sort.png)
 
 * Add to chart.
 
 ![](screenshots/cart.png)
 
-* Check out by sending cheques or cash.
+* Check out.
 
-![](screenshots/order.PNG)
+![](screenshots/checkout.PNG)
 
 ------------------
 
