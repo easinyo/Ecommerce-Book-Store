@@ -228,27 +228,23 @@ if(isset($_POST['submit']))
                         <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img class="img-responsive" src="img/carousel/1.jpg">
+                            <img class="img-responsive" src="img/carousel/cover1.jpg">
                           </div>
 
                           <div class="item">
-                            <img class="img-responsive "src="img/carousel/2.jpg">
+                            <img class="img-responsive "src="img/carousel/cover2.jpg">
                           </div>
 
                           <div class="item">
-                            <img class="img-responsive" src="img/carousel/3.jpg">
+                            <img class="img-responsive" src="img/carousel/cover3.jpg">
                           </div>
 
                           <div class="item">
-                            <img class="img-responsive"src="img/carousel/4.jpg">
+                            <img class="img-responsive"src="img/carousel/cover4.jpg">
                           </div>
 
                           <div class="item">
-                            <img class="img-responsive" src="img/carousel/5.jpg">
-                          </div>
-
-                          <div class="item">
-                            <img class="img-responsive" src="img/carousel/6.jpg">
+                            <img class="img-responsive" src="img/carousel/cover5.jpg">
                           </div>
                       </div>
                   </div>
