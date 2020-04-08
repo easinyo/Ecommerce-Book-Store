@@ -27,12 +27,12 @@ if(isset($_POST['submit']))
              $row = mysqli_fetch_assoc($result);
              $_SESSION['user']=$row['UserName'];
              print'
-                <script type="text/javascript">alert("successfully logged in!!!");</script>
+                <script type="text/javascript">alert("Successfully logged in.");</script>
                   ';
         }
         else
         {    print'
-              <script type="text/javascript">alert("Incorrect Username Or Password!!");</script>
+              <script type="text/javascript">alert("Oops! Incorrect Username Or Password.");</script>
                   ';
         }
   }
@@ -45,9 +45,8 @@ if(isset($_POST['submit']))
         if(mysqli_num_rows($result)>0)
         {   
                print'
-               <script type="text/javascript">alert("username is taken");</script>
+               <script type="text/javascript">alert("username exists already! Please try again.");</script>
                     ';
-
         }
         else
         {
@@ -55,7 +54,7 @@ if(isset($_POST['submit']))
           $result=mysqli_query($con,$query);
           print'
                 <script type="text/javascript">
-                 alert("Successfully Registered!!!");
+                 alert("Your account has been successfully created! Please log in.");
                 </script>
                ';
         }
@@ -248,11 +247,6 @@ if(isset($_POST['submit']))
                           </div>
                       </div>
                   </div>
-              </div>
-              <div class="col-md-3 col-lg-3" id="offer">
-                  <a href="Product.php?value=Buisness%20and%20Management">              <img class="img-responsive center-block" src="img/offers/1.png"></a>
-                  <a href="Product.php?value=Literature%20and%20Fiction">        <img class="img-responsive center-block" src="img/offers/2.png"></a>
-                  <a href="Product.php?value=Academic%20and%20Professional"> <img class="img-responsive center-block" src="img/offers/3.png"></a>
               </div>
           </div>
       </div>

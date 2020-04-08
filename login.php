@@ -13,10 +13,10 @@ if(isset($_POST['submit']))
         {
              $row = mysqli_fetch_assoc($result);
              $_SESSION['user']=$row['UserName'];
-             header("Location: index.php?login=" . "Successfully Logged In");
+             header("Location: index.php?login=" . "You are now Logged In");
         }
         else
-          echo "Incorrect username or password";
+          echo "Oops! Incorrect username or password";
    }
 }
 

@@ -13,7 +13,7 @@
                     $result=mysqli_query($con,$query);
                  ?>
                     <script type="text/javascript">
-                         alert("Order SuccessFully Placed!! Kindly Keep the cash Ready. It will be collected on Delivery");
+                         alert("Your rrder is successFully Placed! \n Please pay in cash on delivery.");
                     </script>
                  <?php                  
                   }
@@ -23,7 +23,7 @@
                     $result=mysqli_query($con,$query);
                  ?>
                     <script type="text/javascript">
-                         alert("Item Successfully Removed");
+                         alert("Item successfully Removed.");
                     </script>
                  <?php                  
                   }     
@@ -64,7 +64,6 @@
           	<a class="navbar-brand" href="index.php" style="padding: 1px;"><img class="img-responsive" alt="Brand" src="img/bookstore-logo.png"  style="width: 50px;margin: 0;"></a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
 	        <?php
@@ -162,8 +161,8 @@
 	        ?>
 
         </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
   </nav>
   <div id="top" >
       <div id="searchbox" class="container-fluid" style="width:112%;margin-left:-6%;margin-right:-6%;">
