@@ -75,7 +75,7 @@ Main font type used is: **Arial**
 
 * Check out by sending cheques or cash.
 
-![](screenshots/order.png)
+![](screenshots/order.PNG)
 
 ------------------
 
