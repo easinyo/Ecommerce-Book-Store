@@ -17,11 +17,11 @@
 # Color Palette
 ## Primary Colors
 We will be using these colors as our primary one through the whole website. With Black or white test.
-![](images/PrimaryColors.png)
+![](img/PrimaryColors.png)
 
 ## Complemenary Colors
 We will be using those colors as our secondary color palette
-![](images/complementaryColorPalette.JPG)
+![](img/complementaryColorPalette.jfif)
 
 # Fonts and Type scale
 
