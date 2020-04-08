@@ -13,7 +13,7 @@
                     $result=mysqli_query($con,$query);
                  ?>
                     <script type="text/javascript">
-                         alert("Your rrder is successFully Placed! \n Please pay in cash on delivery.");
+                         alert("Your order is successFully Placed! \n Please pay in cash on delivery.");
                     </script>
                  <?php                  
                   }
